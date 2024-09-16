@@ -1,0 +1,290 @@
+
+:root{
+    --main-color:#4a2dff;
+    --text-color:#000;
+    --light-color:#fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+ul{
+    list-style: none;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar{
+    width: 100%;
+    
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px 75px;
+    transition: all 1s ease;
+}
+
+.btn-menubar svg {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    margin-bottom: 0;
+}
+
+.lg-hidden {
+    display: none;
+}
+.menu-right > .menu-li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.now{
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+    color: #fff;
+    background-color: green;
+
+}
+
+.menu-li .menu-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.header{
+    position: relative;
+    background:url(img/fresh-fruits-food-background-web-banner-with-copy-space-generative-ai-photo.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-box{
+    width: 50%;
+    padding: 0 75px;
+    display: flex;
+    height: 80vh;
+    align-items: center;
+}
+.text-content h1{
+    color:var(--light-color);
+    font-size: 4rem;
+}
+.text-content p{
+    color:var(--light-color);
+    margin: 12px 0px;
+    font-size: 17px;
+}
+.text-content .btn-link{
+    padding: 1rem 2rem;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.text-content h1,
+.text-content p{
+    text-shadow: 2px 2px 2px #000;
+}
+.car{
+    text-align: center;
+}
+.img2{
+    width: -100px;
+    margin-left: 50%;
+    
+}
+.new{
+    width: 500px;
+     margin-left: 20%; 
+     border-radius: 50px;
+     height: 50%;
+    
+}
+.hh{
+    margin-bottom:100%;
+   
+    margin-left: 70%;
+   
+
+
+
+}
+
+.fru{
+    color: red;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  .about-us {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background: #fff;
+  }
+  
+  .pic {
+    height: auto;
+    width: 400px;
+    border-radius: 12px;
+  }
+  
+  .about {
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .text {
+    width: 540px;
+  }
+  
+  .text h2 {
+    color: #333;
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .text h5 {
+    color: #333;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  
+  .text p {
+    color: #333;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  
+  .data {
+    margin-top: 30px;
+  }
+  
+  .hire {
+    font-size: 18px;
+    background: green;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  
+  .hire:hover {
+    background: #000;
+  }
+
+.site-footer {
+background-color: #26272b;
+padding: 45px 0 20px;
+font-size: 15px;
+line-height: 24px;
+color: #737373;
+box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.site-footer hr {
+border-top-color: #bbb;
+opacity: 0.5;
+}
+.site-footer hr.small {
+margin: 20px 0;
+}
+.site-footer h6 {
+color: #fff;
+font-size: 16px;
+text-transform: uppercase;
+margin-top: 5px;
+letter-spacing: 2px;
+}
+.site-footer a {
+color: #737373;
+}
+.site-footer a:hover {
+color: #fff;
+text-decoration: none;
+}
+.footer-links {
+padding-left: 0;
+list-style: none;
+}
+.footer-links li {
+display: block;
+}
+.footer-links a {
+color: #737373;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+color: #fff;
+text-decoration: none;
+}
+.site-footer .social-icons {
+text-align: right;
+}
+.site-footer .social-icons a {
+width: 40px;
+height: 40px;
+line-height: 40px;
+margin-left: 6px;
+margin-right: 0;
+border-radius: 100%;
+background-color: #33353d;
+}
+.copyright-text {
+margin: 0;
+}
